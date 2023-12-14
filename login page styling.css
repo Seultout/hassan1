@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #4897a5;
+    font-family:'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.flex{
+    display:flex;
+    align-items:center;
+}
+.container{
+    padding: 4px ;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.seultout-page{
+    justify-content:center;
+    width: 100%;
+}
+.seultout-page h1{
+color: #1877f2;
+font-size: 4rem;
+margin-bottom: 12px;
+}
+.seultout-page{
+    font-size: 1.75rem;
+   white-space: nowrap;
+}
+.text{
+    text-decoration: none;
+    text-size-adjust: bold;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 7px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0,0.0.0.1)
+    ,0 9px 16px rgba(0,0,0,0.1);
+    width: 500px;
+}
+form input{
+    height: 53px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    font-size: 1rem;
+    padding: 0 13px;
+}
+form input:focus{
+outline:none;
+border: color #1877f2;
+}
+::placeholder {
+    color:#777;
+    font-size: 1.066rem;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+.link .login{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #1877f2;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.33rem;
+    font-weight: 600;
+    transition: o.2s ease;
+}
+
+.link .login:hover {
+    background: #052146;
+    transition: 1s;
+    width: 100%;
+}
+form a {
+    text-decoration: none;
+}
+ 
+.link .forgot {
+    color: #777;
+    font-size: 0.875rem;
+}
+
+link .forgot:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border:none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.button {
+    margin-top: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .button a {
+    padding: 15px 23px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.064rem;
+    font-weight: 600;
+    transition: o.2s ease;
+ }
+
+ .button a:hover {
+    background: #3ba626;
+ }
+
+ 
+ 

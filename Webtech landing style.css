@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/19695.jpg);
+    background-size: cover;
+    background-position : center;
+}
+.navabar{
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 25px;;
+}
+.logo:hover{
+    width: 150px;
+    padding: 30px;
+    transition: 2s;
+    color: brown;
+    border-radius: 20px;
+}
+.navabar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navabar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navabar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navabar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 30px;
+}
+.content p{
+    margin: 60px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 150px;
+    padding: 25px;
+    text-align: center;
+    margin: 35px 20px;
+    border-radius: 55px;
+    font-weight: bold;
+    border: 5px solid brown;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button:hover{
+    background-color:#0a0318;
+    padding: 30px;
+    color: #fff;
+    transition: 1s ease-in-out;
+    width: 200px;
+}
+
